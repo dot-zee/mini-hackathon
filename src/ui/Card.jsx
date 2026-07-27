@@ -1,13 +1,14 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router";
 import mediaImg from "../assets/media.png"
+import counterImg from "../assets/counter.png"
 
 const ANGLE = 20;
 
 const cards = [
   {
     shadow: "https://i.ibb.co/PM4ghD4/full.png",
-    bg: "https://tse2.mm.bing.net/th/id/OIP.EkmP1AWwfbrNRUvBDmiwgwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    bg: counterImg,
     // cutout: "https://i.ibb.co/Dw3q3tZ/cutout.png",
     leftBehind: true,
     rightBehind: false,
