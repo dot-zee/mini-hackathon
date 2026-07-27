@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router";
-import counterImg from '../assets/counter.png'
 import mediaImg from "../assets/media.png"
 
 const ANGLE = 20;
@@ -89,7 +88,7 @@ export default function Card() {
           key={index}
           onClick={() => navigate(item.route)}
           ref={(el) => (refs.current[index] = el)}
-          className="group relative h-[28rem] w-80"
+          className="group relative h-112 w-80"
           style={{
             perspective: "1000px",
             "--rotateX": "0deg",
